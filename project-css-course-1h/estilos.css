@@ -1,0 +1,144 @@
+
+body{
+   
+    background: linear-gradient(antiquewhite,white);
+    text-align: center;
+}
+/* letra echa por liz */
+h1 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    margin-left: 40px;
+ }
+ 
+ h2 {
+     font: bold 14px sans-serif;
+ }
+ 
+ /* Agrupar hecho por jp :D */
+ .agrupar{
+    background-color: white;
+    width:1000px;
+    margin:auto;
+    padding:20px;
+    border: 1px solid black;
+    
+ }
+
+
+
+ .menu{
+    background: rgb(250,235,215);
+    background: linear-gradient(29deg, rgba(250,235,215,1) 0%, rgba(204,205,205,1) 55%, rgba(255,255,255,1) 98%);
+   ;
+    
+}
+
+.menu li{
+    list-style: none;
+    padding:5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+h1{
+padding-left: 5px;
+}
+.cabecera{
+    /* oh god teacher have mercy and give us at least an 80 */
+    background: rgb(253,225,133);
+background: linear-gradient(29deg, rgba(253,225,133,1) 0%, rgba(38,255,252,1) 100%);
+padding-left: 5px;
+}
+
+h2{
+    font: bold 14px sans-seerif;
+}
+/* celador estuvo aqui */
+header, section,footer,aside, nav, article{
+border: 2px solid  rgb(187, 186, 186);
+}
+.nav .ul{
+    background: rgb(250,235,215);
+background: linear-gradient(29deg, rgba(250,235,215,1) 0%, rgba(204,205,205,1) 55%, rgba(255,255,255,1) 98%);
+}
+
+
+.seccion{
+    border: 1px solid black;
+    margin: 5px;
+   
+}
+
+.columna{
+
+    float: auto;
+    width: auto;
+        border: 1px solid rgb(190, 187, 187);
+        background-color: blanchedalmond;
+        border-radius: 5px solid;
+    }
+     
+    article {
+        background-color: aliceblue;
+        border: 1px solid #999;
+        padding: 20px;
+        margin-bottom: 15px;  
+    }
+
+/* celacho */
+time{
+    color: #999;
+}
+
+.cabecera h1{
+    text-align: left;
+    padding: 5px;
+}
+
+
+.seccion {
+    margin: 20px;
+    width: 600px;
+    border: 1px;
+    float: left;
+    
+}
+.columna{
+    padding: 20px;
+    width: 277px;
+    border: 1px solid black;
+    float: left;
+    margin:20px ;
+}
+
+.menu{
+    text-align: left;
+    /* never use float:left on this, might break the menu */
+    border: 1px solid black;
+}
+.pie{
+    clear: both;
+}
+
+.columna blockquote{
+
+    padding: 40px;
+    background: #FFFBB9;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+hr{
+    background-color: green;
+}
+
+.pie{
+    background-color: rgb(150, 145, 145);
+    color: #ffff;
+}
+
+.profe{
+    align-items: center;
+    border: 5px solid rgb(160, 160, 160);
+    border-radius: 5px;
+}
