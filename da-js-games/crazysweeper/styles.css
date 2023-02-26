@@ -1,0 +1,18 @@
+.grid{
+    height: 800px;
+    width: 800px;
+    display:flex;
+    flex-wrap:wrap;
+    /* temporal bg-color */
+    background-color:grey;
+
+}
+
+.grid div{
+    height: 80px;
+    width: 80px;
+}
+
+.bomb{
+    
+}
