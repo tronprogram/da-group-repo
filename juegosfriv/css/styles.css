@@ -1,0 +1,55 @@
+.imagen{
+    width: 350px;
+    height: 350px;
+    margin-left: 370px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    transition: all 300ms;
+    
+}
+
+
+body{
+    background: linear-gradient(90deg,#581845,#900C3F,#C70039,#900C3F,#581845);
+    
+    
+}
+
+.imagen:hover{
+    transform: scale(1.05);
+}
+
+.logo{
+    width: 60%;
+    margin-left: 400px;
+    animation: scale-in-center; 
+    animation-duration: 2s;
+    
+    
+}
+
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        
+    }
+
+}
+
+
+
+.derecho1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
